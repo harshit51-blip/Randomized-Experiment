@@ -47,10 +47,10 @@ def main():
         for idx, i in enumerate(range(len(num_list))):
             num_list[i] = round(math.sin(starting_val + idx + c), precision)
 
-        if i > 0:
+        if ifactor > 0:
             num_list = [_ + round(ifactor/elements, precision) for _ in num_list]
-        elif i < 0:
-            num_list = [_ + round(abs(ifactor/elements), precision) for _ in num_list]
+        elif ifactor < 0:
+            num_list = [_ - round(abs(ifactor/elements), precision) for _ in num_list]
         
         c += 1
         counter += 1
