@@ -20,3 +20,20 @@ It's quite amazing how I stumbled upon something like this.
 Links:
 https://www.goodtheorist.science/classmech.html
 https://mathworld.wolfram.com/CellularAutomaton.html#:~:text=A%20cellular%20automaton%20is%20a,many%20time%20steps%20as%20desired.
+
+Update 2: So I plotted my first graphs (NOT Qcomp) and the results were as expected, I had predicted they will be like 1-D Random Walks
+but with a periodic feature (visible when graphs are compiled for fewer iterations).
+
+Figure 1 is compiled for 1,00,000 iterations with 1,000 elements in the list in each iteration
+Figure 2 is compiled for 1,00,000 iterations as well but with only 10 elements in the list in each iteration.
+
+This difference can be seen in the value of Cental Tendency (on y-axis), for figure 1, it's very low but in Figure 2 it's compounded easily.
+(Implying a direct proportionality, which is to be expected)
+
+This is by design, however I am now interested making a mathematical model for this simulation of Random Walk, derive the RMS etc., to have
+a clear picture of how and why these two systems are similar and how they are different.
+I would also like to see how this technique, which gives a direct proportionality, can be used in computationally studying physical systems, 
+for example, a large number of particles, where individual energies are correlated..
+
+I will plot the graphs for the model written using Qiskit soon
+
