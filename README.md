@@ -1,6 +1,6 @@
 A small and simple code to plot a periodic but randomized central tendency of
 a data source. 
-Started out as an independent project to measure 'deterministic choas' with a randomized variable.
+Started out as an independent project to measure 'deterministic chaos' with a randomized variable.
 But now looks like a specific version of Random Walks, not sure
 Original Inspiration - Starting point to computing a large number of particles, being affected by each other, such as gas particles in a box.
 Early codes use randomint() to randomize the data source.
@@ -24,8 +24,8 @@ https://mathworld.wolfram.com/CellularAutomaton.html#:~:text=A%20cellular%20auto
 Update 2: I plotted my first graphs (NOT Qcomp) and the results were as expected, I had predicted they will be like 1-D Random Walks
 but with a periodic feature (visible when graphs are compiled for fewer iterations).
 
-Figure 1 is compiled for 1,00,000 iterations with 1,000 elements in the list in each iteration.
-Figure 2 is compiled for 1,00,000 iterations as well but with only 10 elements in the list in each iteration.
+Figure 1 is compiled for 100,000 iterations with 1,000 elements in the list in each iteration.
+Figure 2 is compiled for 100,000 iterations as well but with only 10 elements in the list in each iteration.
 
 This difference can be seen in the value of Cental Tendency (on y-axis), for figure 1, it's very low but in Figure 2 it's compounded easily
 (Implying a direct proportionality, which is to be expected).
@@ -33,7 +33,7 @@ This difference can be seen in the value of Cental Tendency (on y-axis), for fig
 This is by design, however I am now interested making a mathematical model for this simulation of Random Walk, derive the RMS etc., to have
 a clear picture of how and why these two systems are similar and how they are different.
 I would also like to see how this technique, which gives a direct proportionality, can be used in computationally studying physical systems, 
-for example, a large number of particles, where individual energies are correlated.
+for example, a large number of particles, where individual properties may be correlated.
 
 I will plot the graphs for the model written using Qiskit soon.
 
