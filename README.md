@@ -36,3 +36,11 @@ for example, a large number of particles, where individual properties may be cor
 
 I will plot the graphs for the model written using Qiskit soon.
 
+Update 3: Plotted the version using Qiskit.
+The code was very slow, 100,000 iterations took almost 3 hours to reach the halfway mark, had to shutdown.
+This slowness was predicted, although Code Optimization required
+Compiled 10,000 iterations with 10 elements in the list, Figure 1_quantum is the result. The similarity to the classical version is evident.
+To show the periodic nature of the code, compiled 250 iterations, Figure 2_quantum is the result.
+
+
+
