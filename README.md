@@ -8,6 +8,8 @@ Used simple quantum mechanical principles (qiskit module - Aer simulator) to rep
 Second possible study emerging: Measuring any difference between the data source plotted using Quantum Computing (Qiskit) and the pseudo-RNG of python (random),
 Graph not yet plotted. Will be done soon.
 Only the Data Source initialized.
+A sample data source can be seen in the sample_data PNG file. You can clearly see the periodic nature of the system by looking at subsequent iterations and
+matching the elemental data in previous iterations.
 
 Update: I was looking at a resource compilation by Gerard 't Hooft, linked below. I proceeded to check out some of his work and stumbled upon
 something called the 'Cellular Automaton' Intepretation of Quantum Mechanics. I googled what a 'Cellular Automaton' is.
