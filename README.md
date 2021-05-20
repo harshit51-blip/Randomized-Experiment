@@ -25,6 +25,11 @@ https://mathworld.wolfram.com/CellularAutomaton.html#:~:text=A%20cellular%20auto
 Update 2: I plotted my first graphs (NOT Qcomp) and the results were as expected, I had predicted they will be like 1-D Random Walks
 but with a periodic feature (visible when graphs are compiled for fewer iterations).
 
+You can see the Periodic Nature of the system in the Periodic_Nature PNG file. It was run for only a 1,000 iterations, thus, as I said, bringing
+the inherent periodic nature to life. 
+Hence, due to the random and periodic behaviour of this system, and similarities to Random Walks, I have decided to call this
+'Randomized Periodic Walks'.
+
 Figure 1 is compiled for 100,000 iterations with 1,000 elements in the list in each iteration.
 Figure 2 is compiled for 100,000 iterations as well but with only 10 elements in the list in each iteration.
 
@@ -36,11 +41,10 @@ a clear picture of how and why these two systems are similar and how they are di
 I would also like to see how this technique, which gives a direct proportionality, can be used in computationally studying physical systems, 
 for example, a large number of particles, where individual properties may be correlated.
 
-I will plot the graphs for the model written using Qiskit soon.
 
 Update 3: Plotted the version using Qiskit.
 The code was very slow, 100,000 iterations took almost 3 hours to reach the halfway mark, had to shutdown.
-This slowness was predicted (the intermediate data to be computed here is massive as compared to the classical version), although Code Optimization required.
+This slowness was predicted (the intermediate data to be computed here is massive as compared to the classical version), although Code Optimization still required.
 I have some Ideas, will update accordingly.
 Instead, compiled 10,000 iterations with 10 elements in the list, Figure 1_quantum is the result. The similarity (identical) to the classical version is evident.
 To show the periodic nature of the code, compiled 250 iterations, Figure 2_quantum is the result.
